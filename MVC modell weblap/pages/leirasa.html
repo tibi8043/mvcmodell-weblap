@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/myStyleSheet.css">
+  <script src="../JS/myScript.js" type="text/javascript"> </script>
+  <title>Leírása </title>
+</head>
+
+<body>
+  <h1 id="cim">MVC modell leírása</h1>
+  <div class="content">
+    <p>Gyakori egy alkalmazás több rétegre való felbontása: megjelenítés (felhasználói felület), tartománylogika és
+      adatelérés. Az MNV-ben a megjelenítés tovább bomlik nézetre és vezérlőre. Az MNV sokkal inkább meghatározza egy
+      alkalmazás szerkezetét, mint az egy programtervezési mintára jellemző.
+
+      <h2>Modell</h2>
+      Az alkalmazás által kezelt információk tartomány-specifikus ábrázolása. A tartománylogika jelentést ad a puszta
+      adatnak (pl. kiszámolja, hogy a mai nap a felhasználó születésnapja-e, vagy az összeget, adókat és szállítási
+      költségeket egy vásárlói kosár elemeihez).
+      Sok alkalmazás használ állandó tároló eljárásokat (mint mondjuk egy adatbázis) adatok tárolásához. Az MNV nem
+      említi külön az adatelérési réteget, mert ezt beleérti a modellbe.
+      <h2>Nézet</h2>
+      Megjeleníti a modellt egy megfelelő alakban, mely alkalmas a felhasználói interakcióra, jellemzően egy
+      felhasználói felületi elem képében. Különböző célokra különböző nézetek létezhetnek ugyanahhoz a modellhez.
+      <h2>Vezérlő</h2>
+      Az eseményeket, jellemzően felhasználói műveleteket dolgozza fel és válaszol rájuk, illetve a modellben történő
+      változásokat is kiválthat.</p>
+    <div class="kep">
+      <img src="../Images/mvc1.png">
+      <p class="kisLeiras">
+        MVC-model  
+      </p>
+    </div>
+
+  </div>
+
+  <div class="card text-center ">
+    <div class="card-body">
+      <a href="../index.html" class="btn btn-info">Vissza a főoldalra</a>
+      <p class="card-text mt-2">A weboldalt készítette: Aux Tibor</p>
+    </div>
+
+    <div class="card-footer text-muted">
+      <a href="https://hu.wikipedia.org/wiki/Modell-n%C3%A9zet-vez%C3%A9rl%C5%91" target="_blank">Forrás</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
